@@ -22,7 +22,7 @@ namespace buoi_4.Controllers
         {
             double so1 = Convert.ToDouble(soA);
             double so2 = Convert.ToDouble(soB);
-            //ke thua phong thuc TimX.
+            //ke thua phong thuc TimX
             double gt_x = Gpt.Timx(so1, so2);
             ViewBag.timgtx = gt_x;
             return View();
